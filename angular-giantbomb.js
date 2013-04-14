@@ -61,7 +61,7 @@
 			    $resource('http://www.giantbomb.com/:action',
 			        {
 			          action: 'api/games', 
-			          field_list: 'name,id,original_release_date,platforms,api_detail_url,site_detail_url', 
+			          field_list: 'name,id,aliases,genres,image,original_release_date,releases,platforms,api_detail_url,site_detail_url', 
 			          filter: 'name:' + searchString, 
 			          api_key: this._apiKey, 
 			          format: 'jsonp', 
